@@ -1,64 +1,49 @@
-/* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
-  }
-  
-  /* Style tab links */
-  .tablink {
-    background-color: #502330;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-  }
-  
-  .tablink:hover {
-    background-color: #470027;
-  }
-  
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
-    color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
-  }
-  
-  #Hjem {background-color: red;}
-  #Projekter {background-color: lightseagreen;}
-  #Meg {background-color: orange;}
-
-  #testing {
-    background-image: url("../images/tavyah_edited.png");
+    background-color: pink;
   }
 
-  #main_button-frontpage{
-    /*background-image: url("../images/IMG_8894.jpg");*/
-    background-size: 700px;
-    background-position: center;
-
-  }
-
-#main_button-frontpage .picture button {
-    border: 10px solid white;
-    position: center;
-    height: 1000px;
-    width: 1000px;
-    border-radius: 100%;
-    display: inline-block;
-    background-image: url("../images/IMG_8894\ -\ edited.png");
+header {
+    font-size: large;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 100px;
 }
 
-#main_button-frontpage .picture:hover + .hide {
+h1, div {
+    text-align: center;
+}
+
+#main_button-frontpage{
+    margin: auto;
+    width: 30%;
+    margin-bottom: 1000px;
+  }
+
+#main_button-frontpage .circle button {
+    border: 10px solid white;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    display: inline-block;
+    background-image: url("../images/IMG_8894.jpg");
+    background-size: 100%;
+    background-position: 50% 10%;
+}
+
+#main_button-frontpage .circle:hover + .hide {
     display:block;
 }
 
 #main_button-frontpage .hide {
     display: none;
+}
+
+#projects {
+    animation-name: floating;
+    animation-duration: 3s;
+    position: relative;
+    left: 100px;
 }
