@@ -1,4 +1,9 @@
 function aboutMe()
 {
-    window.location.href = "https://tavyah.github.io/aboutme";
+    window.location.href = "./aboutme.html";
+}
+
+function projects()
+{
+    window.location.href = "./projects.html";
 }

@@ -16,11 +16,20 @@ h1, div {
     text-align: center;
 }
 
+svg {
+    transition: all .2s ease-in-out;
+}
+
+svg:hover {
+    transform: scale(1.5);
+}
+
 #main_button-frontpage{
-    margin: auto;
-    width: 30%;
-    margin-bottom: 1000px;
+    margin:0 auto;
+    width: 50%;
+    margin-bottom: 100px;
   }
+
 
 #main_button-frontpage .circle button {
     border: 10px solid white;
@@ -31,19 +40,34 @@ h1, div {
     background-image: url("../images/IMG_8894.jpg");
     background-size: 100%;
     background-position: 50% 10%;
+    transition: all .2s ease-in-out;
 }
 
-#main_button-frontpage .circle:hover + .hide {
+#main_button-frontpage .circle:hover {
     display:block;
+}
+
+#main_button-frontpage .circle:hover button{
+    transform: scale(1.1);
 }
 
 #main_button-frontpage .hide {
     display: none;
 }
 
+#main_button-frontpage .hide button {
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    background-image: none;
+}
+
 #projects {
-    animation-name: floating;
-    animation-duration: 3s;
-    position: relative;
-    left: 100px;
+    float:right;
+    
+}
+
+#contact {
+    float:left;
 }
