@@ -33,3 +33,32 @@ body, html {
   #Hjem {background-color: red;}
   #Projekter {background-color: lightseagreen;}
   #Meg {background-color: orange;}
+
+  #testing {
+    background-image: url("../images/tavyah_edited.png");
+  }
+
+  #main_button-frontpage{
+    /*background-image: url("../images/IMG_8894.jpg");*/
+    background-size: 700px;
+    background-position: center;
+
+  }
+
+#main_button-frontpage .picture button {
+    border: 10px solid white;
+    position: center;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 100%;
+    display: inline-block;
+    background-image: url("../images/IMG_8894\ -\ edited.png");
+}
+
+#main_button-frontpage .picture:hover + .hide {
+    display:block;
+}
+
+#main_button-frontpage .hide {
+    display: none;
+}
