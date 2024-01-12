@@ -1,35 +1,80 @@
+* {
+    outline: 2px solid red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
 body, html {
     height: 100%;
-    margin: 0;
-    font-family: Arial;
-    background-color: pink;
+    background-image: linear-gradient(to left, rgb(241, 171, 183), rgb(199, 94, 125));
   }
 
 header {
-    font-size: large;
-    margin: auto;
-    width: 50%;
-    margin-bottom: 100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 10%;
+    background: transparent;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
 }
 
 h1, div {
     text-align: center;
 }
 
-svg {
-    transition: all .2s ease-in-out;
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-svg:hover {
-    transform: scale(1.5);
+p {
+    font-family: 'Indie Flower', cursive;
+}
+
+main {
+    margin-top: 100px;
+}
+
+section {
+    padding: 3%;
 }
 
 #main_button-frontpage{
-    margin:0 auto;
+    margin:30px auto;
     width: 50%;
-    margin-bottom: 100px;
   }
-
 
 #main_button-frontpage .circle button {
     border: 10px solid white;
@@ -63,11 +108,31 @@ svg:hover {
     background-image: none;
 }
 
-#projects {
-    float:right;
-    
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 30%;
+    background: transparent;
+    display: flex;
 }
 
-#contact {
-    float:left;
+.social-media {
+    margin: 0 auto;
+}
+
+.social-media a {
+    margin-left: 10px;   
+}
+
+.social-media svg {
+    transition: all .55s ease;
+}
+
+.social-media svg:hover {
+    transform: scale(1.5);
+}
+
+.social-media ul {
+    display: flex;
 }
