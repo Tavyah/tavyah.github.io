@@ -1,4 +1,5 @@
 * {
+    outline: 2px solid red;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,8 +8,8 @@
 }
 
 body, html {
-    height: 100%;
     background-image: linear-gradient(to left, rgb(241, 171, 183), rgb(199, 94, 125));
+    place-items: center;
   }
 
 header {
@@ -46,65 +47,29 @@ header {
     transition: all .55s ease;
 }
 
-.navlist a:hover {
-    border-bottom: 2px solid white;
-}
-
-h1, div {
-    text-align: center;
-}
-
-h1 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-p {
-    font-family: 'Indie Flower', cursive;
-}
-
 main {
-    margin-top: 100px;
+    margin: 0 auto;
+    padding: 100px 100px;
 }
 
-section {
-    padding: 3%;
+.filtering {
+    padding: 50px 50px;
 }
 
-#main_button-frontpage{
-    margin:30px auto;
-    width: 50%;
-  }
-
-#main_button-frontpage .circle button {
-    border: 10px solid white;
-    height: 500px;
-    width: 500px;
-    border-radius: 100%;
-    display: inline-block;
-    background-image: url("../images/IMG_8894.jpg");
-    background-size: 100%;
-    background-position: 50% 10%;
-    transition: all .2s ease-in-out;
+.card-group {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    
 }
 
-#main_button-frontpage .circle:hover {
-    display:block;
-}
-
-#main_button-frontpage .circle:hover button{
-    transform: scale(1.1);
-}
-
-#main_button-frontpage .hide {
-    display: none;
-}
-
-#main_button-frontpage .hide button {
-    border: 3px solid white;
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    background-image: none;
+.card {
+    width: 30vmin;
+    aspect-ratio: 4/3;
+    background-color: white;
+    border-radius: 1vmin;
+    position: relative;
 }
 
 footer {
