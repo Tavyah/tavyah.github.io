@@ -3,7 +3,7 @@ function aboutMe()
     window.location.href = "./aboutme.html";
 }
 
-function projects()
+function hideElement()
 {
-    window.location.href = "./projects.html";
+    window.
 }
