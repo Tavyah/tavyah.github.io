@@ -12,7 +12,7 @@ body, html {
   }
 
 header {
-    position: fixed;
+    position: static;
     right: 0;
     top: 0;
     z-index: 1000;
@@ -56,6 +56,7 @@ h1, div {
 
 h1 {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
 }
 
 p {
@@ -63,11 +64,20 @@ p {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 section {
-    padding: 3%;
+    padding: 2%;
+}
+
+section a {
+    color: black;
+    font-style: italic;
+}
+
+section a:hover {
+    text-decoration: underline;
 }
 
 #main_button-frontpage{
@@ -134,4 +144,76 @@ footer {
 
 .social-media ul {
     display: flex;
+}
+
+/* about me page */
+
+.aboutme main {
+    margin: 0px 50px;
+}
+
+.aboutme section {
+    padding: 50px 50px;
+}
+
+.aboutme h1 {
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.aboutme h2 {
+    font-size: 30px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 600;
+    margin: 10px 10px;
+}
+
+.aboutme p {
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    margin: 10px 10px;
+}
+
+.aboutme div {
+    margin: 0 20%;
+}
+
+.right {
+    position: relative;
+    right: 0;
+    top:0;
+    width: 100%;
+    padding: 70px 50px;
+}
+
+.left {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 70px 50px;
+}
+
+.left-side {
+    text-align: left;
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    border: 5px solid white;
+}
+
+.space-between {
+    margin: 20px 0;
+}
+
+/* projects page */
+
+.projects {
+    margin: 200px auto;
+    padding: 0 40%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
