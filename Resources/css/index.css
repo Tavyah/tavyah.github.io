@@ -175,6 +175,10 @@ footer {
     margin: 10px 10px;
 }
 
+.aboutme div {
+    margin: 0 20%;
+}
+
 .right {
     position: relative;
     right: 0;
