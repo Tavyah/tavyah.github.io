@@ -1,9 +1,9 @@
-function aboutMe()
-{
-    window.location.href = "./aboutme.html";
-}
-
-function hideElement()
-{
-    window.
+function responsive() {
+    let nav = document.getElementById('topNav');
+    if(nav.className === 'navlist') {
+        nav.className += " responsive";
+    }
+    else {
+        nav.className = 'navlist';
+    }
 }
