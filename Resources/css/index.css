@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 10%;
+    padding: 33px 4%;
     background: transparent;
 }
 
@@ -48,6 +48,15 @@ header {
 
 .navlist a:hover {
     border-bottom: 2px solid white;
+}
+
+#nav-button {
+    display: none;
+    right: 0;
+    background-color: transparent;
+    color: white;
+    z-index: 1001;
+    cursor: pointer;
 }
 
 h1, div {
@@ -87,8 +96,8 @@ section a:hover {
 
 #main_button-frontpage .circle button {
     border: 10px solid white;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     border-radius: 100%;
     display: inline-block;
     background-image: url("../images/IMG_8894.jpg");
@@ -144,6 +153,44 @@ footer {
 
 .social-media ul {
     display: flex;
+}
+
+/* Media main page */
+
+@media only screen and (max-width: 700px) {
+    #nav-button {
+        display: block;
+    }
+    .navlist a {
+        display: none;
+    }
+
+    .navlist.responsive {
+        position: absolute;
+        display: block;
+        right: 0;
+        width: 200px;
+        margin: 40px 0;
+        transition: all .55s ease;
+    }
+    .navlist.responsive #nav-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navlist.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+        position: relative;
+        margin: 12px 0;
+        background-color: pink;
+    }
+    #main_button-frontpage .circle button {
+        height: 300px;
+        width: 300px;
+    }
 }
 
 /* about me page */
