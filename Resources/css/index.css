@@ -128,7 +128,7 @@ section a:hover {
 }
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     padding: 5px 30%;
@@ -276,8 +276,8 @@ footer {
     }
 }
 /* Tablet landscape */
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape) {
+    
 }
 /* Laptop */
 @media only screen and (max-width: 1600px) {
