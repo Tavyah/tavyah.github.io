@@ -14,8 +14,14 @@ function aboutMe() {
 
 function teaCozy() {
     window.location.href='./all_projects/TeaCozyWebsite/';
+    removeFolderFromUrl('TeaCozyWebsite');
 }
 
 function numberGuesser() {
     window.location.href='./all_projects/NumberGuesser/';
+    removeFolderFromUrl('NumberGuesser');
+}
+
+function removeFolderFromUrl(name) {
+    history.replaceState(null, '', `./${name}/index.html`);
 }
