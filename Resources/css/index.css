@@ -72,10 +72,6 @@ p {
     font-family: 'Indie Flower', cursive;
 }
 
-main {
-    margin-top: 70px;
-}
-
 section {
     padding: 2%;
 }
@@ -158,74 +154,50 @@ footer {
 
 /* about me page */
 
-.aboutme main {
-    margin: 0px 50px;
+.container {
+    display: grid;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-auto-rows: 1.5fr;
+    grid-auto-flow: row dense;
 }
 
-.aboutme section {
-    padding: 50px 50px;
+.content {
+    width: 400px;
 }
 
-.aboutme h1 {
-    font-size: 50px;
+.content h2 {
     font-family: 'Indie Flower', cursive;
-    text-align: center;
+    font-size: 40px;
 }
 
-.aboutme h2 {
-    font-size: 30px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 600;
-    margin: 10px 10px;
+.content p {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
-.aboutme p {
-    font-size: 20px;
-    font-family: "Indie Flower", cursive;
-    margin: 10px 10px;
-}
-
-.aboutme div {
-    margin: 0 20%;
-}
-
-.right {
-    position: relative;
-    right: 0;
-    top:0;
-    width: 100%;
-    padding: 70px 50px;
-}
-
-.left {
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding: 70px 50px;
-}
-
-.left-side {
-    text-align: left;
-    display: flex;
-}
-
-.right-side {
-    display: flex;
-    border: 5px solid white;
-}
-
-.space-between {
-    margin: 20px 0;
+.content.a {
+    grid-column-start: 1;
+    grid-column-end: span 2;
 }
 
 /* projects page */
 
-.projects {
-    margin: 200px auto;
-    padding: 0 40%;
+.pdf-projects {
+    margin: 0 auto;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+.elfsight-app-e93c19dd-f2f5-4591-ae14-95e6b05ec6bf {
+    margin: 0 30%;
 }
 
 /* ==================== Media ==================== */
