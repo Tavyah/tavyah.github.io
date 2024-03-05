@@ -231,7 +231,6 @@ footer {
 }
 
 .project-container {
-    display: grid;
     max-width: 900px;
     margin: auto;
     justify-content: center;
@@ -343,6 +342,14 @@ footer {
     #main_button-frontpage .circle button {
         height: 300px;
         width: 300px;
+    }
+
+    .projects-content {
+        display: block;
+    }
+
+    .projects-content div {
+        margin: 10px 0;
     }
 }
 /* Tablet landscape */

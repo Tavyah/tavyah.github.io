@@ -9,5 +9,5 @@ function responsive() {
 }
 
 function aboutMe() {
-    window.location = 'https://www.tiril.tech/aboutme.html';
+    window.location = 'https://www.tiril.tech/aboutme';
 }
