@@ -13,15 +13,9 @@ function aboutMe() {
 }
 
 function teaCozy() {
-    window.location.href='./all_projects/TeaCozyWebsite/';
-    removeFolderFromUrl('TeaCozyWebsite');
+    window.location.href='./projects/TeaCozyWebsite/';
 }
 
 function numberGuesser() {
-    window.location.href='./all_projects/NumberGuesser/';
-    removeFolderFromUrl('NumberGuesser');
-}
-
-function removeFolderFromUrl(name) {
-    history.replaceState(null, '', `./${name}/index.html`);
+    window.location.href='./projects/NumberGuesser/';
 }
