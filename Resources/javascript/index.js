@@ -11,3 +11,7 @@ function responsive() {
 function aboutMe() {
     window.location = 'https://www.tiril.tech/aboutme';
 }
+
+function teaCozy() {
+    window.location.href='./all_projects/TeaCozyWebsite/';
+}
