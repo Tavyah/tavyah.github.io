@@ -98,7 +98,7 @@ p {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     color: white;
     border-color: white;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .btn:hover {
@@ -137,6 +137,7 @@ section a:hover {
     background-size: 100%;
     background-position: 50% 10%;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 #main_button-frontpage .circle:hover {
