@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <script src="./Resources/javascript/index.js"></script>
         <title>Projects</title>
     </head>
     <body>
@@ -17,18 +18,66 @@
                 </svg>
             </a>
             <nav>
-                <ul class="navlist">
+                <ul id='topNav' class="navlist" role="presentation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About me</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <!--<li><a href="blog.html">Blog</a></li>-->
                 </ul>
+                <div id="nav-button">
+                    <a href="javascript:void(0);" onclick="responsive()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-justify" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </a>
+                </div>
             </nav>
         </header>
         <main>
-            <section class="projects">
-                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                <div class="elfsight-app-e93c19dd-f2f5-4591-ae14-95e6b05ec6bf" data-elfsight-app-lazy></div>
+            <h1>These are all my projects</h1>
+            <section class="projects-container">
+                <div class="projects">
+                    <div class="projects-content">
+                        <div>
+                            <img class="img" src="./Resources/images/tea-cozy.png" alt="Tea Cozy Website">
+                        </div>
+                        <div>
+                            <h2>Codecademy Tea Shop</h2>
+                            <p>A project about learning how to position elements on the page and text.<br>The goal of this project was to create a website for a Tea Shop by showing off their products and their location.</p>
+                            <button type="button" class="btn">Website</button>
+                        </div>
+                    </div>
+                    <div class="projects-content">
+                        <div>
+                            <img class="img" src="./Resources/images/tea-cozy.png" alt="Tea Cozy Website">
+                        </div>
+                        <div>
+                            <h2>Codecademy Tea Shop</h2>
+                            <p>A project about learning how to position elements on the page and text.<br>The goal of this project was to create a website for a Tea Shop by showing off their products and their location.</p>
+                            <button type="button" class="btn">Website</button>
+                        </div>
+                    </div>
+                    <div class="projects-content">
+                        <div>
+                            <img class="img" src="./Resources/images/tea-cozy.png" alt="Tea Cozy Website">
+                        </div>
+                        <div>
+                            <h2>Codecademy Tea Shop</h2>
+                            <p>A project about learning how to position elements on the page and text.<br>The goal of this project was to create a website for a Tea Shop by showing off their products and their location.</p>
+                            <button type="button" class="btn">Website</button>
+                        </div>
+                    </div>
+                    <div class="projects-content">
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="pdf-container">
+                <div class="pdf-projects">
+                    <h2>If you feel like reading some of my work</h2>
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-e93c19dd-f2f5-4591-ae14-95e6b05ec6bf" data-elfsight-app-lazy></div>
+                    <p>Ops... They are all written in norwegian... Sorry about that.</p>
+                </div>
             </section>
         </main>
         <footer>
