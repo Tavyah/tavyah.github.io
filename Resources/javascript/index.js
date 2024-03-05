@@ -13,9 +13,9 @@ function aboutMe() {
 }
 
 function teaCozy() {
-    window.location.href='./projects/TeaCozyWebsite/';
+    window.location.href='.TeaCozyWebsite/';
 }
 
 function numberGuesser() {
-    window.location.href='./projects/NumberGuesser/';
+    window.location.href='./NumberGuesser/';
 }
