@@ -96,8 +96,8 @@ section a:hover {
 
 #main_button-frontpage .circle button {
     border: 10px solid white;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     border-radius: 100%;
     display: inline-block;
     background-image: url("../images/IMG_8894.jpg");
@@ -157,7 +157,7 @@ footer {
 
 /* Media main page */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
     #nav-button {
         display: block;
     }
@@ -186,6 +186,10 @@ footer {
         position: relative;
         margin: 12px 0;
         background-color: pink;
+    }
+    #main_button-frontpage .circle button {
+        height: 300px;
+        width: 300px;
     }
 }
 
