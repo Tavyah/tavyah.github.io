@@ -214,14 +214,19 @@ footer {
     font-size: 40px;
 }
 
-.content p {
-    font-size: 1.2rem;
+.aboutme p {
+    font-size: 1.4rem;
     font-weight: 300;
+    text-align: center;
 }
 
 .content.a {
     grid-column-start: 1;
     grid-column-end: span 2;
+}
+
+#whoP {
+    margin: 0 150px;
 }
 
 /* projects page */
