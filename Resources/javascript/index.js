@@ -19,3 +19,7 @@ function teaCozy() {
 function numberGuesser() {
     window.location.href='./NumberGuesser/';
 }
+
+function dodgeGame() {
+    window.open('https://github.com/Tavyah/DodgeGame');
+}
