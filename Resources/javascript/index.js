@@ -23,3 +23,7 @@ function numberGuesser() {
 function dodgeGame() {
     window.open('https://github.com/Tavyah/DodgeGame');
 }
+
+function plantDecider() {
+    window.open('./plantDecider/');
+}
