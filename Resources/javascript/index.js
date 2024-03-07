@@ -13,11 +13,11 @@ function aboutMe() {
 }
 
 function teaCozy() {
-    window.location.href='./TeaCozyWebsite/';
+    window.URL('./TeaCozyWebsite/');
 }
 
 function numberGuesser() {
-    window.location.href='./NumberGuesser/';
+    window.open('./NumberGuesser/');
 }
 
 function dodgeGame() {
