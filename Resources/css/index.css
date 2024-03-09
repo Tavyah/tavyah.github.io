@@ -145,24 +145,8 @@ section a:hover {
     cursor: pointer;
 }
 
-#main_button-frontpage .circle:hover {
-    display:block;
-}
-
 #main_button-frontpage .circle:hover button{
     transform: scale(1.1);
-}
-
-#main_button-frontpage .hide {
-    display: none;
-}
-
-#main_button-frontpage .hide button {
-    border: 3px solid white;
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    background-image: none;
 }
 
 footer {
@@ -324,10 +308,43 @@ footer {
     p {
         font-size: 20px;
     }
+    #main_button-frontpage .circle button {
+        height: 200px;
+        width: 200px;
+    }
+    #nav-button {
+        display: block;
+    }
+    .navlist a {
+        display: none;
+    }
+
+    .navlist.responsive {
+        position: absolute;
+        display: block;
+        right: 0;
+        width: 200px;
+        margin: 40px 0;
+        transition: all .55s ease;
+    }
+    .navlist.responsive #nav-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navlist.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+        position: relative;
+        margin: 12px 0;
+        background-color: pink;
+    }
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 480px){
     #nav-button {
         display: block;
     }
