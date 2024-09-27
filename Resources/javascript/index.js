@@ -27,3 +27,7 @@ function dodgeGame() {
 function plantDecider() {
     window.open('./plantDecider/');
 }
+
+function cityPlannerTool() {
+    window.open('https://github.com/NaztyDomingo/Cityplanner_Tool')
+}
