@@ -13,7 +13,7 @@ function aboutMe() {
 }
 
 function teaCozy() {
-    window.URL('./TeaCozyWebsite/');
+    window.open('./TeaCozyWebsite/');
 }
 
 function numberGuesser() {
