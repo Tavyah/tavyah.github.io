@@ -115,6 +115,7 @@ p {
 
 section {
     padding: 2%;
+    margin-top: 50px;
 }
 
 section a {
@@ -151,6 +152,7 @@ section a:hover {
 
 footer {
     position: static;
+    margin-top: 100px;
     bottom: 0;
     width: 100%;
     padding: 5px 30%;
