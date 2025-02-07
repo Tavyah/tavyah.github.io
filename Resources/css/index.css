@@ -417,3 +417,22 @@ footer {
     }
 }
 /* ==================== Media ==================== */
+
+.blog-posts {
+    margin: 0 auto;
+    padding: 3% 10%;
+    color: white;
+    align-content: space-between;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.blog-posts article {
+    background-color: palevioletred;
+    border-radius: 10px;
+    border-color: black;
+    border: 2px solid black;
+    box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.425);
+    padding: 5% 5%;
+    margin-bottom: 5%;
+}   
