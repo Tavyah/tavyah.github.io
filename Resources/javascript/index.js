@@ -31,3 +31,7 @@ function plantDecider() {
 function cityPlannerTool() {
     window.open('https://github.com/NaztyDomingo/Cityplanner_Tool')
 }
+
+function snake() {
+    window.location = 'https://www.tiril.tech/projects/snake';
+}
