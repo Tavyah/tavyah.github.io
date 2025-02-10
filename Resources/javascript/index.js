@@ -33,5 +33,5 @@ function cityPlannerTool() {
 }
 
 function snake() {
-    window.location = 'https://www.tiril.tech/projects/snake_js';
+    window.location = 'https://www.tiril.tech/projects/snake';
 }
