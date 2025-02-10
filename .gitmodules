@@ -1,1 +1,4 @@
 
+[submodule "projects/snake"]
+	path = projects/snake
+	url = https://github.com/Tavyah/snake_js.git
