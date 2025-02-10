@@ -427,6 +427,10 @@ footer {
     text-shadow: 1px 1px 2px black;
 }
 
+.blog-posts h2 {
+    color: black;
+}
+
 .blog-posts article {
     background-color: palevioletred;
     border-radius: 10px;
